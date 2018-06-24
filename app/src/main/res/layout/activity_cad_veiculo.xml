@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fusca"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="Cadastrar Veículo"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/edtMarca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nissan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/edtModelo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="March"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/edtCor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Vermelho"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/edtPlaca"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ABY-3262"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/btnCadVeiculo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cadastrar"
+            android:onClick="btnCadVeiculo"
+            android:background="@android:color/holo_green_light"
+            android:textSize="25dp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</LinearLayout>
